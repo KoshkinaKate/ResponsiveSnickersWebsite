@@ -1,0 +1,237 @@
+/* MediaQ: */
+@media (max-width: 1280px) {
+    body{
+        background-color: #410B00;
+    }
+    .secretsidebar{
+        border:solid purple;
+        width:15%;
+        display:block;
+    }
+    .one{
+        border:solid yellow;
+        width:33%;
+        display:block;
+    }
+   
+    .first-line{
+        font-size:18px;
+        padding-bottom: 20px;
+    }
+    .second-line{
+        font-size: 50px;
+        
+    }
+    .third-line{
+        background-color:  rgb(33, 0, 130);
+        border-color: rgb(33, 0, 130);
+        height: 40px;
+        font-size: 14px;
+        color: white;
+        margin-top: 25px;
+        border-radius: 30%;
+        font-weight: bold; 
+        font-family: DrupalPrimaryTypefaceFont, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .third-line:hover{
+        background-color: white;
+        cursor: pointer;
+        color:rgb(33, 0, 130);
+        border-color: white;
+        
+    }
+    .tagContainer{
+        /* border:solid plum; */
+        width:70%;
+        display:flex;
+        justify-content: space-around;  
+    }
+}
+/* ------------------------------------------------[Desktop] */
+@media (max-width: 880px) {
+    body{
+        background-color: #410B00;
+    }
+    .secretsidebar{
+        border:solid purple;
+        width:15%;
+        display:block;
+    }
+    .one{
+        border:solid yellow;
+        width:50%;
+        display:block;
+    }
+    .first-line{
+        font-size:14px;
+        padding-bottom: 20px;
+    }
+    .second-line{
+        font-size: 40px;
+        
+    }
+    .third-line{
+        background-color:  rgb(33, 0, 130);
+        border-color: rgb(33, 0, 130);
+        height: 40px;
+        font-size: 14px;
+        color: white;
+        margin-top: 25px;
+        border-radius: 30%;
+        font-weight: bold; 
+        font-family: DrupalPrimaryTypefaceFont, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .third-line:hover{
+        background-color: white;
+        cursor: pointer;
+        color:rgb(33, 0, 130);
+        border-color: white;
+        
+    }
+    .tagContainer{
+        /* border:solid plum; */
+        width:70%;
+        display:none;
+        justify-content: space-around;
+    
+        
+    }
+}
+/* ------------------------------------------------[Tablet] */
+@media (max-width: 580px) {
+    body{
+        background-color: #410B00;
+    }
+    .secretsidebar{
+        border:solid purple;
+        width:25%;
+        display:none;
+    }
+    .one{
+        border:solid yellow;
+        width:100%;
+        display:block;
+    }
+
+    .first-line{
+        font-size:14px;
+        padding-bottom: 20px;
+    }
+    .second-line{
+        font-size: 30px;
+        
+    }
+    .third-line{
+        background-color:  rgb(33, 0, 130);
+        border-color: rgb(33, 0, 130);
+        height: 30px;
+        font-size: 12px;
+        color: white;
+        margin-top: 20px;
+        border-radius: 30%;
+        font-weight: bold; 
+        font-family: DrupalPrimaryTypefaceFont, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .third-line:hover{
+        background-color: white;
+        cursor: pointer;
+        color:rgb(33, 0, 130);
+        border-color: white;
+        
+    }
+    .tagContainer{
+        /* border:solid plum; */
+        width:70%;
+        display:none;
+        justify-content: space-around; 
+    } 
+}
+/* ------------------------------------------------[Mobile] */
+.navContainer{
+ border:solid black;
+ border-width:.2px;
+ height:6vh;
+ margin:1em;
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.header{
+    border: solid white;
+    border-width: 0.2px;
+    height: 6vh;
+    margin: 1em;
+    display: flex;
+    justify-content: right; /* Aligns items with space between them */
+    align-items: center;
+    /* color:white; */
+}
+.mainnav{
+    /* border:solid white; */
+    width:10%;
+    text-align:center;
+    font-size:12px;
+    color:white;
+    font-size: 14px;
+    font-family: DrupalPrimaryTypefaceFont, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+/* MAIN IMAGE */
+.top{
+ border:solid black;
+ border-width:.2px;
+ height:60vh;
+ margin:1em;
+ display:flex;
+ justify-content: space-evenly;
+
+}
+.image-container{
+    position: relative;
+    display: flex;
+}
+.left-image{
+    border:solid white;
+    width:100%;
+}  
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 0; 
+    padding:10px;
+    color: white;
+    /* font-size: 10px; */
+    font-weight: bold; 
+    font-family: DrupalPrimaryTypefaceFont, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* END MAIN IMAGE */
+.middle{
+ border:solid black;
+ border-width:.2px;
+ height:42vh;
+ margin:1em;
+ display:flex;
+}
+.bottom{
+     border:solid black;
+     border-width:.2px;
+     height:42vh;
+     margin:1em;
+}
+.logo{
+    /* border:solid red; */
+    height:100%;
+}
+
+.navTag{
+    /* border:solid white; */
+    width:30%;
+    text-align:center;
+    font-size:16px;
+    color:white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
